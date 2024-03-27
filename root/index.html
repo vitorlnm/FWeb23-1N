@@ -27,9 +27,18 @@
     <section id="destaques"> </section>
 
     <div class="container destaque">
+        <img class="banner-img" src="./img/destaque-home.png" alt="Imagem de destaque">
+
+            <a href="#" class="pause">Pause</a>
+            <a href="#" class="play">Play</a>
+        
+
         <section class="busca">
             <h2>Busca</h2>
-            <form><input type="search"><input class="imgBusca" type="image" src="img/busca.png"></form </section>
+            <form id="form-busca" action="http://www.google.com.br/search" method="GET">
+                <input type="search" name="q" id="q">
+                <input class="imgBusca" type="image" src="img/busca.png" alt="Buscar">
+            </form </section>
 
             <section class="menu-conteudo">
                 <h2>Menu</h2>
@@ -47,23 +56,23 @@
             <h2>Aula 1</h2>
             <ol>
                 <li> <a href="ExerciciosAula/index1.html">
-                        <figure><img class="imgEx1" src="img/exercicio1.png">
+                        <figure><img class="imgEx1" src="img/iconLoja.png">
                             <figcaption>Exercicio 1 HTML</figcaption>
                         </figure>
                     </a> </li>
 
-                    <li><a href="ExerciciosAula/index2.html">
-                        <figure><img class="imgEx2" src="img/exercicio2.png">
+                <li><a href="ExerciciosAula/index2.html">
+                        <figure><img class="imgEx2" src="img/iconLoja.png">
                             <figcaption>Exercicio 2 HTML</figcaption>
                     </a> </li>
 
-                    <li><a href="ExerciciosAula/exer3.html">
-                        <figure><img class="imgEx3" src="img/exercicio3.png">
+                <li><a href="ExerciciosAula/exer3.html">
+                        <figure><img class="imgEx3" src="img/iconLoja.png">
                             <figcaption>Exercicio 3 HTML</figcaption>
                     </a> </li>
-                
+
                 <li><a href="ExerciciosAula/exer4.html">
-                        <figure><img class="imgEx4" src="img/exercicio4.png">
+                        <figure><img class="imgEx4" src="img/iconLoja.png">
                             <figcaption>Exercicio 4 HTML</figcaption>
                     </a> </li>
             </ol>
@@ -73,31 +82,47 @@
             <h2>Aula 2</h2>
             <ol>
                 <li> <a href="ExerciciosAula/index1.html">
-                    <figure><img class="imgEx1" src="img/exercicio1.png">
-                        <figcaption>Exercicio 1 HTML</figcaption>
-                    </figure>
-                </a> </li>
+                        <figure><img class="imgEx1" src="img/iconLoja.png">
+                            <figcaption>Exercicio 1 HTML</figcaption>
+                        </figure>
+                    </a> </li>
 
                 <li><a href="ExerciciosAula/index2.html">
-                    <figure><img class="imgEx2" src="img/exercicio2.png">
-                        <figcaption>Exercicio 2 HTML</figcaption>
-                </a> </li>
+                        <figure><img class="imgEx2" src="img/iconLoja.png">
+                            <figcaption>Exercicio 2 HTML</figcaption>
+                    </a> </li>
 
                 <li><a href="ExerciciosAula/exer3.html">
-                    <figure><img class="imgEx3" src="img/exercicio3.png">
-                        <figcaption>Exercicio 3 HTML</figcaption>
-                </a> </li>
-            
-            <li><a href="ExerciciosAula/exer4.html">
-                    <figure><img class="imgEx4" src="img/exercicio4.png">
-                        <figcaption>Exercicio 4 HTML</figcaption>
-                </a> </li>
+                        <figure><img class="imgEx3" src="img/iconLoja.png">
+                            <figcaption>Exercicio 3 HTML</figcaption>
+                    </a> </li>
+
+                <li><a href="ExerciciosAula/exer4.html">
+                        <figure><img class="imgEx4" src="img/iconLoja.png">
+                            <figcaption>Exercicio 4 HTML</figcaption>
+                    </a> </li>
             </ol>
         </section>
     </div>
 
+
     <footer>
+        <div class="container">
+            <ul class="social">
+                <li><a href="https://twitter.com/vitaolz" target="_blank"><img
+                            src="https://img.shields.io/badge/-Twitter-%23333?style=for-the-badge&logo=twitter&logoColor=white"
+                            alt="Twitter"></a></li>
+                <li><a href="https://instagram.com/vitaolz" target="_blank"><img
+                            src="https://img.shields.io/badge/-Instagram-%23333?style=for-the-badge&logo=instagram&logoColor=white"
+                            alt="Instagram"></a></li>
+                <li><a href="https://br.linkedin.com/vitorbrum" target="_blank"><img
+                            src="https://img.shields.io/badge/-Linkedin-%23333?style=for-the-badge&logo=linkedin&logoColor=white"
+                            alt="Linkedin"></a></li>
+            </ul>
+            <p>Todos os direitos são reservados &copy; Industria Vitor Gabriel, 2024</p>
+        </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
