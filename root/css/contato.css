@@ -48,3 +48,27 @@ footer {
 #rodape img {
   width: 400px;
 }
+
+.first-letter-bold:first-letter {
+  font-weight: bold;
+}
+
+h1+p {
+  text-indent: 0;
+}
+
+p:first-line {
+  font-variant: small-caps;
+}
+
+:not(p)+p:first-line {
+  font-variant: small-caps;
+}
+
+.menu-opcoes a:hover {
+  color: #007dc6;
+}
+
+.menu-opcoes a:active {
+  color: #867dc6;
+}

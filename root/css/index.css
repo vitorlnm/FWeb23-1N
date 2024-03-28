@@ -14,7 +14,6 @@ body {
   top: 0;
   right: 0;
   background-size: contain;
-
 }
 
 .menu-opcoes ul {
@@ -111,13 +110,15 @@ body {
 .aula1 {
   float: left;
   background-color: #f5dcdc;
-  width: 47%;
+  width: 35%;
+  margin: 0px;
 }
 
 .aula2 {
   float: right;
   background-color: #dcdcf5;
-  width: 47%;
+  width: 35%;
+  margin: 0px;
 }
 
 .painel li {
@@ -132,8 +133,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom:
-    10px;
+  margin-bottom: 10px;
 }
 
 .painel a {
@@ -146,21 +146,28 @@ body {
 .imgEx1 {
   width: 50%;
   height: 50%;
+  float: center;
 }
 
 .imgEx2 {
   width: 50%;
   height: 50%;
+  float: center;
+  padding: 0px 35px;
 }
 
 .imgEx3 {
   width: 50%;
   height: 50%;
+  float: center;
+  padding: 0px 35px;
 }
 
 .imgEx4 {
   width: 50%;
   height: 50%;
+  float: center;
+  padding: 0px 35px;
 }
 
 footer {
@@ -171,14 +178,12 @@ footer {
   position: fixed;
   bottom: 6px;
   width: 100%;
-  
 }
 
 footer .container {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-  
 }
 
 footer ul.social {
@@ -205,8 +210,8 @@ footer p {
   margin-bottom: 10px;
 }
 
-.banner-img{
-  width: 700px;
+.banner-img {
+  width: 850px;
   height: 400px;
 }
 
@@ -223,6 +228,35 @@ footer p {
 .controls a {
   background-color: #333;
   color: #fff;
+}
+
+.menu-conteudo li ul {
+  display: none;
+}
+
+.menu-conteudo li:hover ul {
+  display: block;
+  width: 230px;
+  margin-left: -10px;
+}
+
+.menu-conteudo ul li {
+  background-color: #dcdcdc;
+}
+
+.menu-conteudo nav li {
+  list-style-type: none;
+}
+
+.menu-conteudo li ul li a:before {
+  content: "- ";
+  font-size: 10px;
+}
+
+#exTxt {
+  font-size: 14px;
+  opacity: 90%;
+  text-transform: none
 }
 
 header {
