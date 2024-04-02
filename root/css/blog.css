@@ -10,11 +10,11 @@
   }
   
   a:hover {
-    opacity: 0.7;
+    opacity: 0.08;
   }
   
   .logo {
-    font-size: 24px;
+    font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 4px;
   }
@@ -25,7 +25,7 @@
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #23232e;
-    height: 1000px;
+    height: 999px;
   }
   
   .nav-list {
@@ -34,7 +34,7 @@
   }
   
   .nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
+    letter-spacing: 2px;
+    margin-left: 50px;
   }
   
