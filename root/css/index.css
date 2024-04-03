@@ -38,7 +38,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 940px;
+  width: 950px;
   position: relative;
 }
 
@@ -264,3 +264,78 @@ header {
   height: 20%;
   border: 2px solid;
 }
+
+.painel {
+  border-radius: 4px;
+  box-shadow: inset 1px 1px 4px #999;
+}
+
+.painel h2 {
+  text-shadow: 3px 3px 2px #FFF;
+}
+
+.busca {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.painel h2 {
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.aula1 {
+  background: linear-gradient(#f5dcdc, #bebef4);
+}
+
+.aula2 {
+  background: linear-gradient(#dcdcf5, #f4bebe);
+}
+
+.painel li:hover {
+  box-shadow: 0 0 5px #333;
+  transition: box-shadow 0.7s;
+}
+
+.painel li:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px #333;
+  transition:
+    0.7s;
+}
+
+.painel li:hover {
+  transform: scale(1.2);
+}
+
+.painel li:hover {
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.container {
+  position: relative;
+}
+
+.toggle-play {
+  display: inline-block;
+  width: 40px;
+  height: 40px; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -9999px; 
+  background-image: url('https://cdn-icons-png.flaticon.com/512/260/260446.png');
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toggle-play.play {
+  background-image: url('https://cdn-icons-png.flaticon.com/256/10309/10309065.png');
+}
+
+.banner-img {
+  position: relative;
+}
+
+

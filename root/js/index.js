@@ -1,11 +1,15 @@
 document.addEventListener('DOMContentLoaded', function () {
-    function validaBusca() {
-        if (document.querySelector('#q').value === '') {
-            alert('Não podia ter deixado em branco a busca!');
-            return false;
+    var toggleButton = document.querySelector('.toggle-play');
+    var isPaused = false;
+
+    toggleButton.addEventListener('click', function() {
+        isPaused = !isPaused;
+        if (isPaused) {
+            toggleButton.classList.remove('play');
+        } else {
+            toggleButton.classList.add('play');
         }
-    }
-    document.querySelector('#form-busca').addEventListener('submit', validaBusca);
+    });
 });
 
 var banners = ["./img/destaque-home.png", "./img/destaque-home-2.png"];
@@ -18,15 +22,14 @@ function trocaBanner() {
 }
 timer = setInterval(trocaBanner, 1000);
 
-var pauseButton = document.querySelector('.pause');
-var playButton = document.querySelector('.play');
+var toggleButton = document.querySelector('.toggle-play');
 
-pauseButton.onclick = function() {
-    clearInterval(timer);
-    return true;
-};
-
-playButton.onclick = function() {
-    timer = setInterval(trocaBanner, 1000);
+toggleButton.onclick = function() {
+    if (timer) {
+        clearInterval(timer);
+        timer = null;
+    } else {
+        timer = setInterval(trocaBanner, 1000);
+    }
     return true;
 };
