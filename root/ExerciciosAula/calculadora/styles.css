@@ -72,32 +72,6 @@
   cursor: pointer;
 }
 
-.conteudo .calculadora .opcoes__janela div:nth-child(1) {
-  background-color: var(--cor-botao-fechar);
-}
-
-.conteudo .calculadora .opcoes__janela div:nth-child(2) {
-  background-color: var(--cor-botao-minimizar);
-}
-
-.conteudo .calculadora .opcoes__janela div:nth-child(3) {
-  background-color: var(--cor-botao-maximizar);
-}
-
-.conteudo .calculadora .opcoes__janela div:nth-child(1):hover:after {
-  content: "x";
-}
-
-.conteudo .calculadora .opcoes__janela div:nth-child(2):hover:after {
-  content: "-";
-  line-height: 12px;
-  font-size: 12px;
-}
-
-.conteudo .calculadora .opcoes__janela div:nth-child(3):hover:after {
-  content: "+";
-}
-
 .conteudo .calculadora .conteudo__botoes {
   display: grid;
   background-color: var(--cor-input-resultado);
