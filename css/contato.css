@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('https://img.freepik.com/vetores-gratis/design-de-fundo-preto-escuro-com-listras_1017-38064.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709596800&semt=ais');
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+h1 {
+  border-bottom: 2px solid #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+
+section {
+  padding: 20px;
+}
+
+figure {
+  background-color: #f3f3f3;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+figcaption {
+  font-style: italic
+}
+
+footer {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#rodape {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#rodape img {
+  width: 400px;
+}
+
+.first-letter-bold:first-letter {
+  font-weight: bold;
+}
+
+h1+p {
+  text-indent: 0;
+}
+
+p:first-line {
+  font-variant: small-caps;
+}
+
+:not(p)+p:first-line {
+  font-variant: small-caps;
+}
+
+.menu-opcoes a:hover {
+  color: #007dc6;
+}
+
+.menu-opcoes a:active {
+  color: #867dc6;
+}

@@ -1,0 +1,341 @@
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.carrinho {
+  background: url(../img/carmarket.png) no-repeat top right;
+  font-size: 14px;
+  padding-right: 35px;
+  text-align: right;
+  width: 140px;
+  position: absolute;
+  padding-top: 8px;
+  top: 0;
+  right: 0;
+  background-size: contain;
+}
+
+.menu-opcoes ul {
+  font-size: 15px;
+}
+
+.menu-opcoes a {
+  color: #003366;
+}
+
+.menu-opcoes ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.menu-opcoes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 950px;
+  position: relative;
+}
+
+.imgLogo {
+  width: 10%;
+  height: 10%;
+}
+
+.busca,
+.menu-conteúdo {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 10px;
+  width: 230px;
+  float: left;
+}
+
+.busca h2,
+.busca form,
+.menu-conteudo h2 {
+  margin: 10px;
+}
+
+.menu-conteudo li {
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+
+.menu-conteudo a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.menu-conteudo {
+  clear: left;
+}
+
+.busca input {
+  vertical-align: middle;
+}
+
+.busca input[type=search] {
+  width: 170px;
+}
+
+.destaque {
+  margin-top: 10px;
+}
+
+.menu-conteudo {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imgBusca {
+  width: 10%;
+  height: 10%;
+  padding: 5px;
+}
+
+.painel {
+  margin: 10px 0;
+  padding: 10px;
+  width: 445px;
+}
+
+.aula1 {
+  float: left;
+  background-color: #f5dcdc;
+  width: 35%;
+  margin: 0px;
+}
+
+.aula2 {
+  float: right;
+  background-color: #dcdcf5;
+  width: 35%;
+  margin: 0px;
+}
+
+.painel li {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  margin: 2px;
+  padding-bottom: 10px;
+}
+
+.painel h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.painel a {
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.imgEx1 {
+  width: 50%;
+  height: 50%;
+  float: center;
+}
+
+.imgEx2 {
+  width: 50%;
+  height: 50%;
+  float: center;
+  padding: 0px 35px;
+}
+
+.imgEx3 {
+  width: 50%;
+  height: 50%;
+  float: center;
+  padding: 0px 35px;
+}
+
+.imgEx4 {
+  width: 50%;
+  height: 50%;
+  float: center;
+  padding: 0px 35px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 6px;
+  width: 100%;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer ul.social {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul.social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul.social li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul.social li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.banner-img {
+  width: 850px;
+  height: 400px;
+}
+
+.controls a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.controls a {
+  background-color: #333;
+  color: #fff;
+}
+
+.menu-conteudo li ul {
+  display: none;
+}
+
+.menu-conteudo li:hover ul {
+  display: block;
+  width: 230px;
+  margin-left: -10px;
+}
+
+.menu-conteudo ul li {
+  background-color: #dcdcdc;
+}
+
+.menu-conteudo nav li {
+  list-style-type: none;
+}
+
+.menu-conteudo li ul li a:before {
+  content: "- ";
+  font-size: 10px;
+}
+
+#exTxt {
+  font-size: 14px;
+  opacity: 90%;
+  text-transform: none
+}
+
+header {
+  position: relative;
+  height: 20%;
+  border: 2px solid;
+}
+
+.painel {
+  border-radius: 4px;
+  box-shadow: inset 1px 1px 4px #999;
+}
+
+.painel h2 {
+  text-shadow: 3px 3px 2px #FFF;
+}
+
+.busca {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.painel h2 {
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.aula1 {
+  background: linear-gradient(#f5dcdc, #bebef4);
+}
+
+.aula2 {
+  background: linear-gradient(#dcdcf5, #f4bebe);
+}
+
+.painel li:hover {
+  box-shadow: 0 0 5px #333;
+  transition: box-shadow 0.7s;
+}
+
+.painel li:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px #333;
+  transition:
+    0.7s;
+}
+
+.painel li:hover {
+  transform: scale(1.2);
+}
+
+.painel li:hover {
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.container {
+  position: relative;
+}
+
+.toggle-play {
+  display: inline-block;
+  width: 40px;
+  height: 40px; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -9999px; 
+  background-image: url('https://cdn-icons-png.flaticon.com/512/260/260446.png');
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toggle-play.play {
+  background-image: url('https://cdn-icons-png.flaticon.com/256/10309/10309065.png');
+}
+
+.banner-img {
+  position: relative;
+}
+
+
