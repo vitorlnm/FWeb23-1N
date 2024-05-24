@@ -1,4 +1,6 @@
-# 📘 Front End Web - Projeto de Estudo
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=false&fontAlign=50&fontAlignY=50&animation=twinkling&textBg=false"/>
+
+<h1> 📘 Front End Web - Projeto de Estudo</h1>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/vitorlnm/FWeb23-1N?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/vitorlnm/FWeb23-1N?style=for-the-badge)
