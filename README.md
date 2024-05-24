@@ -5,7 +5,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/vitorlnm/FWeb23-1N?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/vitorlnm/FWeb23-1N?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/vitorlnm/FWeb23-1N?style=for-the-badge)
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=blue&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)
 
 <img src="https://i.imgur.com/HcdeKaG.png" alt="Apresentação">
 
