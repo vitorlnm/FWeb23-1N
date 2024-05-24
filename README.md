@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=false&fontAlign=50&fontAlignY=50&animation=twinkling&textBg=false"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=100&color=008B8B&reversal=false&fontAlign=50&fontAlignY=50&animation=twinkling&textBg=false"/>
 
 <h1> 📘 Front End Web - Projeto de Estudo</h1>
 
@@ -6,7 +6,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/vitorlnm/FWeb23-1N?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/vitorlnm/FWeb23-1N?style=for-the-badge)
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=blue&style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/vitorlnm/FWeb23-1N?style=for-the-badge)
 
 <img src="https://i.imgur.com/HcdeKaG.png" alt="Apresentação">
 
