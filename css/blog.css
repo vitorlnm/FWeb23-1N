@@ -10,7 +10,7 @@
   }
   
   a:hover {
-    opacity: 0.08;
+    opacity: 0.4;
   }
   
   .logo {
@@ -26,7 +26,7 @@
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #23232e;
-    height: 999px;
+    height: 773px;
   }
   
   .nav-list {
@@ -39,3 +39,13 @@
     margin-left: 50px;
   }
   
+  .logo + p {
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 415px; 
+    left: 210px; 
+    color: #7a7a7a;
+    letter-spacing: 5px;
+    font-size: 12px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}

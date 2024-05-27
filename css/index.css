@@ -1,6 +1,7 @@
 body {
   color: #333333;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #eeeeee;
 }
 
 .carrinho {
@@ -48,7 +49,7 @@ body {
 }
 
 .busca,
-.menu-conteúdo {
+.menu-contedo {
   background-color: #dcdcdc;
   font-weight: bold;
   text-transform: uppercase;
@@ -56,6 +57,7 @@ body {
   width: 230px;
   float: left;
 }
+
 
 .busca h2,
 .busca form,
@@ -143,40 +145,45 @@ body {
   text-decoration: none;
 }
 
+.desc {
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+
 .imgEx1 {
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
   float: center;
 }
 
 .imgEx2 {
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
   float: center;
-  padding: 0px 35px;
+  padding: 0px 37px;
 }
 
 .imgEx3 {
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
   float: center;
-  padding: 0px 35px;
+  padding: 0px 40px;
 }
 
 .imgEx4 {
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
   float: center;
-  padding: 0px 35px;
+  padding: 0px 37px;
 }
 
 footer {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 1px;
   text-align: center;
   position: fixed;
-  bottom: 6px;
+  bottom: 2px;
   width: 100%;
 }
 
@@ -188,12 +195,12 @@ footer .container {
 
 footer ul.social {
   list-style: none;
-  padding: 0;
+  padding: 5px 0px 0px 0px;
 }
 
 footer ul.social li {
   display: inline-block;
-  margin-right: 10px;
+  padding: 2px 2px 1px 2px ;
 }
 
 footer ul.social li a {
@@ -206,13 +213,15 @@ footer ul.social li a:hover {
 }
 
 footer p {
-  margin-top: 10px;
+  margin-top: 1px;
   margin-bottom: 10px;
+  font-size: 8px;
+  letter-spacing: 2px;
 }
 
 .banner-img {
-  width: 850px;
-  height: 400px;
+  width: 950px;
+  height: 335px;
 }
 
 .controls a {
@@ -284,31 +293,26 @@ header {
 }
 
 .aula1 {
-  background: linear-gradient(#f5dcdc, #bebef4);
+  background: linear-gradient(#fdfdfd, #b8b5a8);
 }
 
 .aula2 {
-  background: linear-gradient(#dcdcf5, #f4bebe);
+  background: linear-gradient(#fdfdfd, #b8b5a8);
 }
 
 .painel li:hover {
-  box-shadow: 0 0 5px #333;
-  transition: box-shadow 0.7s;
-}
-
-.painel li:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 5px #333;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 1px #333;
   transition:
-    0.7s;
+    0.89s;
 }
 
 .painel li:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .painel li:hover {
-  transform: scale(1.2) rotate(-5deg);
+  transform: scale(1.1) rotate(0deg);
 }
 
 .container {
@@ -337,5 +341,3 @@ header {
 .banner-img {
   position: relative;
 }
-
-
