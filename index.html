@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
+
+    <!-- Inclusão de folhas de estilo -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/mobile.css" media="(max-width: 650px)">
 </head>
 
 <body>
+    <!-- Cabeçalho da página -->
     <header class="container">
         <h1><img class="imgLogo" src="img/logoloja2.png" alt="Logo"></h1>
         <p class="carrinho"> Não há itens no carrinho</p>
+        <!-- Navegação por meio de uma lista de opções -->
         <nav class="menu-opcoes">
             <ul>
+                <!-- Links para outras páginas -->
                 <li><a href="contato.html">Contato</a></li>
                 <li><a href="content.html">Conteudo</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -23,27 +28,36 @@
         </nav>
     </header>
 
+    <!-- Sessão vazia -->
     <section id="main"> </section>
-
+    <!-- Sessão vazia -->
     <section id="destaques"> </section>
 
+    <!-- Contêiner com destaque e sessão de busca -->
     <div class="container destaque">
+        <!-- Imagem de destaque com um botão de pausa -->
         <img class="banner-img" src="./img/destaque-home.png" alt="Imagem de destaque">
         <a href="#" class="toggle-play">Pause</a>
 
-
-
+        <!-- Sessão de busca -->
         <section class="busca">
+            <!-- Titulo -->
             <h2>Busca</h2>
+            <!-- Formulário de busca -->
             <form id="form-busca" action="http://www.google.com.br/search" method="GET">
+                <!-- Campo de entrada de texto para busca -->
                 <input type="search" name="q" id="q">
                 <input class="imgBusca" type="image" src="img/busca.png" alt="Buscar">
             </form </section>
 
+            <!-- Menu de conteúdo -->
             <section class="menu-conteudo">
+                <!-- Título do menu -->
                 <h2>Menu</h2>
+                <!-- Navegação por meio de lista aninhada -->
                 <nav>
                     <li>
+                        <!-- Links para exercícios 1 -->
                         <a href="#">Aula1</a>
                         <ul>
                             <li><a id="exTxt" href="#">Exercício 1</a></li>
@@ -54,6 +68,7 @@
                     </li>
 
                     <li>
+                        <!-- Links para exercícios 2 -->
                         <a href="#">Aula2</a>
                         <ul>
                             <li><a id="exTxt" href="#">Exercício 1</a></li>
@@ -62,6 +77,8 @@
                             <li><a id="exTxt" href="#">Exercício 4</a></li>
                         </ul>
                     </li>
+
+                    <!-- Outros itens de menu semelhantes -->
 
                     <li>
                         <a href="#">Aula3</a>
@@ -78,9 +95,12 @@
             </section>
     </div>
 
+    <!-- Contêiner com sessões de painéis -->
     <div class="container paineis">
+        <!-- Painel da aula 1 -->
         <section class="painel aula1">
             <h2>Aula 1</h2>
+            <!-- Links para exercícios -->
             <ol>
                 <li> <a href="ExerciciosAula/ExerciciosInicio/index1.html">
                         <figure><img class="imgEx1" src="img/iconLoja.png">
@@ -105,8 +125,10 @@
             </ol>
         </section>
 
+        <!-- Painel da aula 2 -->
         <section class="painel aula2">
             <h2>Aula 2</h2>
+            <!-- Links para exercícios -->
             <ol>
                 <li> <a href="ExerciciosAula/ExerciciosInicio/index1.html">
                         <figure><img class="imgEx1" src="img/iconLoja.png">
@@ -132,9 +154,10 @@
         </section>
     </div>
 
-
+    <!-- Rodapé da página -->
     <footer>
         <div class="container">
+            <!-- Lista de ícones de redes sociais -->
             <ul class="social">
                 <li><a href="https://twitter.com/vitaolz" target="_blank"><img
                             src="https://img.shields.io/badge/-Twitter-%23333?style=for-the-badge&logo=twitter&logoColor=white"

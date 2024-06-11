@@ -118,27 +118,6 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.5); 
 }
 
-@media screen and (max-width: 768px) {
-    .pokedex {
-        width: 100%;
-        max-width: 768px;
-    }
-    
-    .display {
-        left: 0;
-        width: 100%;
-        max-width: 100%;
-    }
-    
-    #pokemon-image {
-        margin-top: 40px;
-    }
-    
-    .search-container {
-        margin-top: 80px;
-    }
-}
-
 #music-button {
     position: fixed;
     top: 10px;
@@ -150,4 +129,34 @@ button:hover {
 #music-icon {
     width: 30px;
     height: 30px;
+}
+
+@media (max-width: 768px) {
+    .pokedex {
+        max-width: 100%;
+    }
+
+    #pokemon-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #pokemon-info p {
+        font-size: 14px;
+    }
+
+    .search-container button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #pokemon-info p {
+        font-size: 12px;
+    }
+
+    .search-container button {
+        font-size: 12px;
+    }
 }
