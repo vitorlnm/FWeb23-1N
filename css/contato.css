@@ -75,3 +75,28 @@ p:first-line {
 .menu-opcoes a:active {
   color: #867dc6;
 }
+
+@media screen and (max-width: 430px) {
+  header {
+      padding: 10px 0;
+  }
+
+  h1 {
+      width: 100%;
+      border-bottom: none;
+      font-size: 24px;
+  }
+
+  section {
+      padding: 10px;
+  }
+
+  #rodape img {
+      width: 100%;
+  }
+
+  footer {
+      padding: 5px 0;
+      font-size: 12px;
+  }
+}
