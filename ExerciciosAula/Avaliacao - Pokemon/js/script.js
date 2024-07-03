@@ -1,6 +1,6 @@
 /**
-         * Função assíncrona para buscar e exibir informações de um Pokémon com base no ID fornecido.
-         */
+ * Função assíncrona para buscar e exibir informações de um Pokémon com base no ID fornecido.
+ */
 async function fetchPokemon() {
     // -- Obter o ID do pokemon pelo Usuario -->
 
@@ -20,8 +20,8 @@ async function fetchPokemon() {
             pokemonImagem.style.display = 'block';
             document.getElementById('pokemon-nome').innerText = `Nome: ${pokemon.name}`;
             document.getElementById('pokemon-tipos').innerText = `Tipos: ${pokemon.types.map(typeInfo => typeInfo.type.name).join(', ')}`;
-            document.getElementById('pokemon-peso').innerText = `Peso: ${pokemon.weight} kg`;
-            document.getElementById('pokemon-altura').innerText = `Altura: ${pokemon.height} m`;
+            document.getElementById('pokemon-peso').innerText = `Peso: ${(pokemon.weight / 10).toFixed(1)} kg`;
+            document.getElementById('pokemon-altura').innerText = `Altura: ${(pokemon.height / 10).toFixed(1)} m`;
 
             // -- Reproduz o som do Pokémon, se não for encotrado será avisado. -->
             if (pokemon.cries && pokemon.cries.latest) {
@@ -42,21 +42,22 @@ async function fetchPokemon() {
         }
     }
 }
-    // -- Botão para parar musica de fundo se o Usuario preferir. -->
-    let musicaFundo = true;
 
-    function toggleMusic() {
-        const music = document.getElementById('background-music');
-        const musicIcon = document.getElementById('music-icon');
+// -- Botão para parar musica de fundo se o Usuario preferir. -->
+let musicaFundo = true;
 
-        // -- Altera entre icones quando clicar para parar e retomar. -->
-        if (musicaFundo) {
-            music.pause();
-            musicaFundo = false;
-            musicIcon.src = 'img/sem-audio.png';
-        } else {
-            music.play();
-            musicaFundo = true;
-            musicIcon.src = 'img/com-audio.png'; 
-        }
+function toggleMusic() {
+    const music = document.getElementById('background-music');
+    const musicIcon = document.getElementById('music-icon');
+
+    // -- Altera entre icones quando clicar para parar e retomar. -->
+    if (musicaFundo) {
+        music.pause();
+        musicaFundo = false;
+        musicIcon.src = 'img/sem-audio.png';
+    } else {
+        music.play();
+        musicaFundo = true;
+        musicIcon.src = 'img/com-audio.png'; 
     }
+}
